@@ -9,7 +9,7 @@ handle_error() {
 }
 
 # Change to the repository directory
-if ! cd /home/austin/development/lean/sorry-index/sorry-db-data-test; then
+if ! cd /home/austin/development/lean/sorry-index/sorry-db-data-test-mock-only; then
   handle_error "Failed to change to repository directory"
 fi
 
@@ -20,7 +20,7 @@ if ! /home/austin/.local/bin/update_db --database sorry_database.json; then
 fi
 # Run the Docker container with the mounted volume to update databse
 docker run --rm \
-  -v /home/user/database-repo:/data \
+  -v /home/austin/development/lean/sorry-index/sorry-db-data-test-mock-only:/data \
   sorrydb-image:latest \
   poetry run update_database --database-file /data/sorry_database.json
 
