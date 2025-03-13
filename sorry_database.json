@@ -2,8 +2,8 @@
   "repos": [
     {
       "remote_url": "https://github.com/austinletson/sorryClientTestRepo",
-      "last_time_visited": "2025-03-13T10:48:59.690940+00:00",
-      "remote_heads_hash": "29fc5b394758",
+      "last_time_visited": "2025-03-13T10:55:57.529630+00:00",
+      "remote_heads_hash": "71dddc7b40da",
       "commits": [
         {
           "sha": "78202012bfe87f99660ba2fe5973eb1a8110ab64",
@@ -170,6 +170,101 @@
                 "summary": "create test sorry"
               },
               "uuid": "0d56508b-acb8-443c-b24b-551e7ef55343"
+            }
+          ]
+        },
+        {
+          "sha": "faa95e535f67412d3c00dfb023a8f9fbb4c39e4c",
+          "branch": "master",
+          "time_visited": "2025-03-13T10:55:57.529630+00:00",
+          "lean_version": "v4.16.0",
+          "sorries": [
+            {
+              "goal": {
+                "type": "\u22a2 1 + 1 = 2",
+                "hash": "c118ed11456b",
+                "parentType": "Prop"
+              },
+              "location": {
+                "startLine": 4,
+                "startColumn": 2,
+                "endLine": 4,
+                "endColumn": 7,
+                "file": "SorryClientTestRepo/BasicWithElabTactic.lean"
+              },
+              "blame": {
+                "commit": "4a5aa5852385523841b4802064777062c636c771",
+                "author": "LennyTaelman",
+                "author_email": "lenny.taelman@gmail.com",
+                "date": "2025-02-27T16:30:37+01:00",
+                "summary": "add version importing LeanElabTactic for parent type inference"
+              },
+              "uuid": "83dee47b-fbd1-4e46-bb0e-b8f9074045b6"
+            },
+            {
+              "goal": {
+                "type": "\u22a2 1 + 1 = 2",
+                "hash": "c118ed11456b",
+                "parentType": "Prop"
+              },
+              "location": {
+                "startLine": 7,
+                "startColumn": 2,
+                "endLine": 7,
+                "endColumn": 7,
+                "file": "SorryClientTestRepo/BasicWithElabTactic.lean"
+              },
+              "blame": {
+                "commit": "cda85414242d242cbe00f6bca07df206ba4c375b",
+                "author": "austinletson",
+                "author_email": "waustinletson@gmail.com",
+                "date": "2025-03-07T07:00:23-05:00",
+                "summary": "add a second sorry"
+              },
+              "uuid": "dd47e3f5-f590-4058-afad-041918249bb4"
+            },
+            {
+              "goal": {
+                "type": "\u22a2 1 + 4 = 5",
+                "hash": "aade751ec21b",
+                "parentType": "Prop"
+              },
+              "location": {
+                "startLine": 10,
+                "startColumn": 2,
+                "endLine": 10,
+                "endColumn": 7,
+                "file": "SorryClientTestRepo/BasicWithElabTactic.lean"
+              },
+              "blame": {
+                "commit": "faa95e535f67412d3c00dfb023a8f9fbb4c39e4c",
+                "author": "Austin Letson",
+                "author_email": "waustinletson@gmail.com",
+                "date": "2025-03-13T06:55:53-04:00",
+                "summary": "Update BasicWithElabTactic.lean"
+              },
+              "uuid": "88bfff69-d50c-45d2-81c9-31ae7f0a42d2"
+            },
+            {
+              "goal": {
+                "type": "\u22a2 1 + 1 = 2",
+                "hash": "c118ed11456b"
+              },
+              "location": {
+                "startLine": 4,
+                "startColumn": 37,
+                "endLine": 4,
+                "endColumn": 42,
+                "file": "SorryClientTestRepo/Basic.lean"
+              },
+              "blame": {
+                "commit": "69ade1690eb58f50ac18e2983039244fe473b770",
+                "author": "austinletson",
+                "author_email": "waustinletson@gmail.com",
+                "date": "2025-02-23T07:54:03-05:00",
+                "summary": "create test sorry"
+              },
+              "uuid": "9ea25103-5448-4de8-ba4d-cc854abe83f6"
             }
           ]
         }
