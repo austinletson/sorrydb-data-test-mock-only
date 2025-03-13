@@ -17,8 +17,8 @@ echo "Updating database..."
 # Run the Docker container with the mounted volume to update databse
 docker run --rm \
   -v /home/austin/development/lean/sorry-index/sorry-db-data-test-mock-only:/data \
-  sorrydb-image:latest \
-  poetry run update_database --database-file /data/sorry_database.json
+  sorrydb:latest \
+  poetry run update_db --database-file /data/sorry_database.json
 
 # Get current timestamp
 CURRENT_TIME=$(date "+%Y-%m-%d %H:%M:%S")
