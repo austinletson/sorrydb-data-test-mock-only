@@ -14,10 +14,6 @@ if ! cd /home/austin/development/lean/sorry-index/sorry-db-data-test-mock-only; 
 fi
 
 echo "Updating database..."
-# Update sorry_database.json
-if ! /home/austin/.local/bin/update_db --database sorry_database.json; then
-  handle_error "Failed to update the database"
-fi
 # Run the Docker container with the mounted volume to update databse
 docker run --rm \
   -v /home/austin/development/lean/sorry-index/sorry-db-data-test-mock-only:/data \
