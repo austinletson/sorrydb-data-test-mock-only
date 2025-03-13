@@ -15,8 +15,7 @@ fi
 
 echo "Updating database..."
 # Run the Docker container with the mounted volume to update databse
-docker run --rm \
-  --user $(id -u):$(id -g) \
+docker run \
   --mount type=bind,source=/home/austin/development/lean/sorry-index/sorry-db-data-test-mock-only,target=/data \
   sorrydb:latest \
   poetry run update_db --database-file /data/sorry_database.json
