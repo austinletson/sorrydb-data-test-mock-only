@@ -17,7 +17,7 @@ echo "Updating database..."
 # Run the Docker container with the mounted volume to update databse
 docker run \
   --mount type=bind,source=/home/austin/development/lean/sorry-index/sorry-db-data-test-mock-only,target=/data \
-  sorrydb:latest \
+  sorrydb-mathlib-diff:latest \
   poetry run update_db --database-file /data/sorry_database.json --stats-file /data/update_database_stats.json
 
 # Get current timestamp
