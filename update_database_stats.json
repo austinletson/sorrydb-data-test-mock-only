@@ -1,4 +1,18 @@
 {
-  "https://github.com/austinletson/sorryClientTestRepo": {},
-  "https://github.com/austinletson/sorryClientTestRepoMath": {}
+  "https://github.com/austinletson/sorryClientTestRepo": {
+    "counts": {},
+    "new_leaf_commit": false,
+    "start_processing_time": null,
+    "end_processing_time": null,
+    "total_processing_time": null,
+    "lake_timeout": null
+  },
+  "https://github.com/austinletson/sorryClientTestRepoMath": {
+    "counts": {},
+    "new_leaf_commit": false,
+    "start_processing_time": null,
+    "end_processing_time": null,
+    "total_processing_time": null,
+    "lake_timeout": null
+  }
 }
