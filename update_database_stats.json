@@ -1,18 +1,36 @@
 {
   "https://github.com/austinletson/sorryClientTestRepo": {
-    "counts": {},
-    "new_leaf_commit": false,
-    "start_processing_time": null,
-    "end_processing_time": null,
-    "total_processing_time": null,
+    "counts": {
+      "78202012bfe87f99660ba2fe5973eb1a8110ab64": {
+        "count": 3,
+        "count_new": 2
+      },
+      "f8632a130a6539d9f546a4ef7b412bc3d86c0f63": {
+        "count": 4,
+        "count_new": 1
+      }
+    },
+    "new_leaf_commit": true,
+    "start_processing_time": "2025-04-07T12:25:37.169592+00:00",
+    "end_processing_time": "2025-04-07T12:26:02.284988+00:00",
+    "total_processing_time": "25s",
     "lake_timeout": null
   },
   "https://github.com/austinletson/sorryClientTestRepoMath": {
-    "counts": {},
-    "new_leaf_commit": false,
-    "start_processing_time": null,
-    "end_processing_time": null,
-    "total_processing_time": null,
+    "counts": {
+      "e853cb7ab1cdb382ea12b3f11bcbe6bbfeb32d47": {
+        "count": 1,
+        "count_new": 1
+      },
+      "c1c539f7432bafccd8eaf55f363eaad4e0b92374": {
+        "count": 2,
+        "count_new": 1
+      }
+    },
+    "new_leaf_commit": true,
+    "start_processing_time": "2025-04-07T12:26:02.433814+00:00",
+    "end_processing_time": "2025-04-07T12:28:44.627138+00:00",
+    "total_processing_time": "2m 42s",
     "lake_timeout": null
   }
 }
