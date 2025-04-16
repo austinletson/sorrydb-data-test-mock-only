@@ -14,7 +14,7 @@ if ! cd /home/austin/development/lean/sorry-index/sorry-db-data-test-mock-only; 
 fi
 
 # Get current timestamp
-CURRENT_TIME=$(date "+%Y-%m-%d %H:%M:%S")
+CURRENT_TIME=$(date "+%Y-%m-%dT%H:%M:%S")
 
 LOG_FILE="${CURRENT_TIME}_logs"
 
