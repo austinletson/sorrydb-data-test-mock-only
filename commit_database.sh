@@ -26,8 +26,7 @@ docker run \
   --mount type=bind,source=/home/austin/development/lean/sorry-index/sorry-db-data-test-mock-only,target=/data \
   sorrydb:latest \
   sh -c "poetry run update_db --database-file /data/sorry_database.json --stats-file /data/update_database_stats.json --log-file "/data/logs/${LOG_FILE}" --log-level DEBUG \
-    && echo 'hello world'\
-    poetry run poetry run deduplicate_db --database-file /data/sorry_database.json --results-file /data/deduplicated_sorries.json"
+    && poetry run poetry run deduplicate_db --database-file /data/sorry_database.json --results-file /data/deduplicated_sorries.json"
 
 
 echo "Staging changes..."
