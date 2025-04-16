@@ -18,6 +18,8 @@ CURRENT_TIME=$(date "+%Y-%m-%d %H:%M:%S")
 
 LOG_FILE="${CURRENT_TIME}_logs"
 
+echo "$LOG_FILE"
+
 echo "Updating database..."
 # Run the Docker container with the mounted volume to update databse
 docker run \
